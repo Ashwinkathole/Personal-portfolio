@@ -385,7 +385,7 @@ video {
     margin-top: 10px;
 }
 
-.project-container {
+#project-container {
     display: flex;
     gap: 5px;
     overflow: scroll;

@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Personal Portfolio</title>
     <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
@@ -148,7 +149,7 @@
 
     <section id="project">
         <h3>Project</h3>
-        <div class="project-container">
+        <div id="project-container">
             <div class="project-article">
                 <article class="project-1">
                     <img src="assets/project1.svg" alt="">
@@ -193,9 +194,9 @@
         </div>
     </section>
     <div class="buttons">
-        <button class="button1">
+        <button onclick="left()" class="button1">
             <</button>
-                <button class="button1">></button>
+                <button onclick="right()" class="button1">></button>
     </div>
 
     <section id="Experience">
